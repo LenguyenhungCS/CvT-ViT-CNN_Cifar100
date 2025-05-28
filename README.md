@@ -1,7 +1,11 @@
 # Introduction
 Re-train CNN, ViT, and CvT models from scratch on a small-scale dataset such as CIFAR-100 to compare the performance of these advanced architectures. Implement ResNet-18, ViT-B, CvT-13, CvT-21, and construct a custom CvT-9 model with a parameter count approximately equal to that of ResNet-18.
-
 ![](figures/pipeline.svg)
+
+# Dataset
+The CIFAR-100 is loaded using the PyTorch (torch) library. If the dataset is not already available, it will be automatically downloaded when executing the training scripts.
+
+<img src="figures/CIFAR-100a.jpg" alt="CIFAR-100" width="700" height="400"/>
 
 # Main results
 ## Top-1 accuracy(%) of CvT, ViT and ResNet18, trained from scratch on Cifar100 datasets.
