@@ -15,14 +15,15 @@ Re-train CNN, ViT, and CvT models from scratch on a small-scale dataset such as 
 
 # Quick start
 ## Installation
-Open a terminal or PowerShell in the project directory and execute the following commands:
+Assuming that you have installed PyTorch and TorchVision, if not, please follow the [officiall instruction](https://pytorch.org/) to install them firstly. 
+Intall the dependencies using cmd:
 
 ``` sh
 python -m pip install -r requirements.txt --user -q
 ```
 
 ## Run
-Each experiment is defined by a yaml config file, which is saved under the directory of `experiments`. The directory of `experiments` has a tree structure like this:
+Open Terminal/PowerShell in the project directory and execute the following commands:
 
 ``` sh
 python train_cvt_cifar100
