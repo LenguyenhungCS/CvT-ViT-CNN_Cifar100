@@ -26,16 +26,16 @@ python -m pip install -r requirements.txt --user -q
 Open Terminal/PowerShell in the project directory and execute the following commands:
 
 ``` sh
-python train_cvt_cifar100
+python train_cvt_cifar100.py
 ```
 
 OR
 
 ``` sh
-python train_vit_cifar100
+python train_vit_cifar100.py
 ```
 
 OR,
 Click button `'RUN"/'RUN ALL'`
 
-Note: change the import between model files in the train file to run different types of models.
+Note: Can change the `import` between model files in the train file to run different types of models.
