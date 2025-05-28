@@ -15,8 +15,7 @@ Re-train CNN, ViT, and CvT models from scratch on a small-scale dataset such as 
 
 # Quick start
 ## Installation
-Assuming that you have installed PyTorch and TorchVision, if not, please follow the [officiall instruction](https://pytorch.org/) to install them firstly. 
-Intall the dependencies using cmd:
+Open a terminal or PowerShell in the project directory and execute the following commands:
 
 ``` sh
 python -m pip install -r requirements.txt --user -q
@@ -36,6 +35,6 @@ python train_vit_cifar100
 ```
 
 OR,
-Click button 'RUN"/'RUN ALL'
+Click button `'RUN"/'RUN ALL'`
 
 Note: change the import between model files in the train file to run different types of models.
